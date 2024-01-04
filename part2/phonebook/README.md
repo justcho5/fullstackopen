@@ -11,6 +11,8 @@ Fullstack Open exercises 2.6 to 2.17.
 ![webapp_initial](app_image1.png)
 ![webapp_add](app_image2.png)
 ![webapp_filter](app_image3.png)
+![webapp_add2](app_image4.png)
+![webapp_error](app_image5.png)
 
 ## Concepts Practiced
 
