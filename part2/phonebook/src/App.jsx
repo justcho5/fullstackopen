@@ -38,8 +38,10 @@ const App = () => {
             setMessage([null, false]);
           }, 5000);
         })
-        .catch(() => {
-          setMessage(["Error adding new contact", true]);
+        .catch((error) => {
+          console.log(error.response.data.error);
+          const errorMessage = error.response.data.error;
+          setMessage([errorMessage, true]);
           setTimeout(() => {
             setMessage([null, false]);
           }, 5000);
@@ -64,11 +66,10 @@ const App = () => {
             setMessage([null, false]);
           }, 5000);
         })
-        .catch(() => {
-          setMessage([
-            `Information of ${personObject.name} has already been removed from the server`,
-            true,
-          ]);
+        .catch((error) => {
+          console.log(error.response.data.error);
+          const errorMessage = error.response.data.error;
+          setMessage([errorMessage, true]);
           setTimeout(() => {
             setMessage([null, false]);
           }, 5000);
