@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/blogs/65dcdb3e0bc8a3cd182fad19
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imp1c3RjaG81IiwiaWQiOiI2NWQ5NGIwMmRlOGQ5OTA4NGMwMmUzYjQiLCJpYXQiOjE3MDg5NzI4MTIsImV4cCI6MTcwODk3NjQxMn0.gXlnDjgd4z6yr7lua1_qGbSA2LFMcZOZX5g8YXJpHrA
+
+{
+    "title": "blog jaowef"
+}
